@@ -1,5 +1,3 @@
-# project2 
-
 # Daily Scholar &nbsp;  🎓
 
 "Enhance your homeschooling experience"
