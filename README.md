@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 # project2 
-[![Build Status](https://travis-ci.com/simonk16/project2.svg?branch=master)](https://travis-ci.com/simonk16/project2)
 
-https://project-2000.herokuapp.com/
-=======
 # Daily Scholar &nbsp;  🎓
 
 "Enhance your homeschooling experience"
@@ -51,4 +47,3 @@ A computer and web browser with an active internet connection.
 
 
 :shipit:
->>>>>>> f20d5f0adafed151f2a79d1c642bc0b94f03f564
