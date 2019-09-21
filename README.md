@@ -1,4 +1,4 @@
-# Daily Scholar 🎓
+# Daily Scholar   🎓
 
 "Enhance your homeschooling experience"
 
