@@ -29,7 +29,7 @@ A computer and web browser with an active internet connection.
 * [Node.js](https://nodejs.org/en/) - Open source development platform for executing JavaScript code server-side
 * [Express.js](https://expressjs.com) - Web framework of Node.js to assist in routing and content delivery
 * [Sequelize](https://sequelize.org) - Promise-based ORM for Node.js.
-* [Passport.js](hhttp://www.passportjs.org) - Authentication middleware for Node.js
+* [Passport.js](http://www.passportjs.org) - Authentication middleware for Node.js
 
 
 
