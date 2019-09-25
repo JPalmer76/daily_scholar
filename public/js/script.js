@@ -1,9 +1,9 @@
 $("#submitButton").on("click", function(event) {
   event.preventDefault();
-  console.log($("input[value='logNewProject']:checked").val());
-  if ($("input[value='logNewProject']:checked").val()) {
+  console.log($("input[value='logNewTask']:checked").val());
+  if ($("input[value='logNewTask']:checked").val()) {
     $("#myNewModal").modal("toggle");
-  } else if ($("input[value='logExistingProject']:checked").val()) {
+  } else if ($("input[value='logExistingTask']:checked").val()) {
     $("#myExistingModal").modal("toggle");
   }
 });
