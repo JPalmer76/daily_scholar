@@ -1,34 +1,32 @@
-drop database if exists lkug5f2yavelao76;
-create database lkug5f2yavelao76;
+USE kb8je7otrbkp671t;
 
-USE lkug5f2yavelao76;
-
-CREATE TABLE employees(
-employee_id INT NOT NULL auto_increment,
-employeeName VARCHAR(255) not null,
+CREATE TABLE teacher(
+teacher_id INT NOT NULL auto_increment,
+teacherName VARCHAR(255) not null,
 createdAt timestamp,
 updatedAt timestamp,
-PRIMARY KEY(employee_id)
+PRIMARY KEY(teacher_id)
 );
 
-CREATE TABLE projects(
-project_id INT NOT NULL auto_increment,
-project_title VARCHAR(255),
-employee_id int, 
+CREATE TABLE task(
+task_id INT NOT NULL auto_increment,
+task_name VARCHAR(255),
+task_complete BOOLEAN DEFAULT,
+teacher_id int, 
 createdAt timestamp,
 updatedAt timestamp,
-PRIMARY KEY(project_id),
-FOREIGN KEY(employee_id) REFERENCES employees(employee_id)
+PRIMARY KEY(task_id),
+FOREIGN KEY(teacher_id) REFERENCES employees(teacher_id)
 );
 
-CREATE TABLE hours(
-hours_worked int,
-project_id int,
-employee_id int,
+CREATE TABLE student(
+student_name VARCHAR(255),
+task_id int,
+teacher_id int,
 createdAt timestamp,
 updatedAt timestamp,
-FOREIGN KEY(employee_id) REFERENCES employees(employee_id),
-FOREIGN KEY(project_id) REFERENCES projects(project_id)
+FOREIGN KEY(teacher_id) REFERENCES teacher(teacher_id),
+FOREIGN KEY(task_id) REFERENCES task(task_id)
 );
 
 
